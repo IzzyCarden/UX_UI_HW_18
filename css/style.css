@@ -59,3 +59,62 @@ body{
     display: inline-block;
     vertical-align: bottom;
   }
+  h1{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: montserrat, arial, sans-serif;
+    margin-top: 30%;
+  }
+  .flexContainer{
+    display: grid;
+    grid-area: 'x skillset';
+    width: 33%;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-top: 5%;
+  }
+  .X{
+    position: absolute;
+    top: 790px;
+    right: 30%;
+    grid-area: x;
+  }
+  .skillset{
+    width: 200px;
+    text-align: center;
+    margin-left: 43%;
+    margin-right: 33%;
+    grid-area: skillset;
+  }
+  .workgrid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 12.5%;
+  }
+  .text{
+    width: 400px;
+  }
+  .csbutton{
+    text-align:center;
+    color: white;
+    background-color: black;
+    font-size:18px;
+    margin-right: -50px;
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid #0047FF;
+    margin-left: 65px;
+  }
+  .csbutton2{
+    text-align:center;
+    color: white;
+    background-color: black;
+    font-size:18px;
+    margin-right: -50px;
+    margin-top: 200px;
+    padding: 20px;
+    border: 2px solid #FF0000;
+  }
