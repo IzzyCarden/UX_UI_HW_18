@@ -93,18 +93,18 @@ body{
     margin-right: 33%;
     grid-area: skillset;
   }
-  .workgrid{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 12.5%;
+  .myWork{
+    margin-top: 10%;
   }
-  .text{
-    width: 400px;
+  #workgrid{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .summary{
     color: white;
     font-size: 18px;
     font-family: montserrat, arial, sans-serif;
-  }
+    }
   .csbutton{
     text-align:center;
     color: white;
@@ -112,7 +112,7 @@ body{
     font-size:18px;
     padding: 20px;
     border: 2px solid #0047FF;
-    margin-left: 65px;
+    align-self: center;
   }
   .csbutton2{
     text-align:center;
@@ -121,4 +121,5 @@ body{
     font-size:18px;
     padding: 20px;
     border: 2px solid #FF0000;
+    align-self: center;
   }
