@@ -105,8 +105,6 @@ body{
     color: white;
     background-color: black;
     font-size:18px;
-    margin-right: -50px;
-    margin-top: 40px;
     padding: 20px;
     border: 2px solid #0047FF;
     margin-left: 65px;
@@ -116,8 +114,6 @@ body{
     color: white;
     background-color: black;
     font-size:18px;
-    margin-right: -50px;
-    margin-top: 200px;
     padding: 20px;
     border: 2px solid #FF0000;
   }
