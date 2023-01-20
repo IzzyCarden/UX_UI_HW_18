@@ -38,6 +38,7 @@ body{
     color: white;
     font-size: 18px;
     font-family: montserrat, arial, sans-serif;
+    text-align: center;
   }
   .heroimg{
     margin-left: -100px;
@@ -71,14 +72,18 @@ body{
     font-family: montserrat, arial, sans-serif;
     margin-top: 30%;
   }
-  .flexContainer{
+  h2{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: montserrat, arial, sans-serif;
+  }
+ 
+ 
+  #skillsgrid {
     display: grid;
-    grid-area: 'x skillset';
-    width: 33%;
-    justify-content: center;
-    margin-left: 30%;
-    margin-right: 33%;
-    margin-top: 5%;
+    grid-area: 'skillset / skillset2 / skillset3 / skillset4';
+    grid-column-start: "skillset2";
   }
   .X{
     position: absolute;
@@ -89,21 +94,52 @@ body{
   .skillset{
     width: 200px;
     text-align: center;
-    margin-left: 43%;
+    margin-left: 40.5%;
     margin-right: 33%;
-    grid-area: skillset;
+    grid-area: "skillset";
   }
-  .myWork{
-    margin-top: 10%;
+  .skillset2{
+    width: 200px;
+    text-align: center;
+    margin-top: 11%;
+    margin-left: 25%;
+    margin-right: 33%;
+    grid-area: "skillset2";
   }
-  #workgrid{
+  .skillset3{
+    width: 200px;
+    text-align: center;
+    margin-top: -7.5%;
+    margin-left: 60%;
+    margin-right: 33%;
+    grid-area: "skillset3";
+  }
+  .skillset4{
+    width: 200px;
+    text-align: center;
+    margin-left: 40.5%;
+    margin-right: 33%;
+    grid-area: "skillset4";
+  }
+  
+  
+
+
+  .flexContainer {
     display: flex;
     flex-flow: column wrap;
-  }
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    }
+  
   .summary{
+    display: flex;
     color: white;
     font-size: 18px;
     font-family: montserrat, arial, sans-serif;
+    text-align: center;
+    width: 700px;
     }
   .csbutton{
     text-align:center;
@@ -112,7 +148,6 @@ body{
     font-size:18px;
     padding: 20px;
     border: 2px solid #0047FF;
-    align-self: center;
   }
   .csbutton2{
     text-align:center;
@@ -121,5 +156,4 @@ body{
     font-size:18px;
     padding: 20px;
     border: 2px solid #FF0000;
-    align-self: center;
   }
