@@ -48,6 +48,7 @@ body{
   }
 .content{
     width: 500px;
+    height: 500px;
     margin: 0 auto;
 }
   .button{
@@ -80,46 +81,45 @@ body{
   }
  
  
-  #skillsgrid {
-    display: grid;
-    grid-area: 'skillset / skillset2 / skillset3 / skillset4';
-    grid-column-start: "skillset2";
-  }
+  
   .X{
+    width: 500px;
+    height: 500px;
     position: absolute;
-    top: 790px;
-    right: 30%;
-    grid-area: x;
+    margin-top: -400px;
+    margin-left: 20px;
   }
   .skillset{
     width: 200px;
     text-align: center;
-    margin-left: 40.5%;
-    margin-right: 33%;
-    grid-area: "skillset";
-  }
+    grid-area: skillset;
+    }
   .skillset2{
     width: 200px;
     text-align: center;
-    margin-top: 11%;
-    margin-left: 25%;
-    margin-right: 33%;
-    grid-area: "skillset2";
+    grid-area: skillset2;
   }
   .skillset3{
-    width: 200px;
+    width:200px;
     text-align: center;
-    margin-top: -7.5%;
-    margin-left: 60%;
-    margin-right: 33%;
-    grid-area: "skillset3";
+    grid-area: skillset3;
   }
   .skillset4{
     width: 200px;
     text-align: center;
-    margin-left: 40.5%;
-    margin-right: 33%;
-    grid-area: "skillset4";
+    grid-area: skillset4;
+  }
+  
+  .skillsgrid{
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 40% 20% 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-template-areas: 
+    "skillset skillset"
+    "skillset2 skillset3"
+    "skillset4 skillset4";
   }
   
   
@@ -156,4 +156,7 @@ body{
     font-size:18px;
     padding: 20px;
     border: 2px solid #FF0000;
+  }
+  .myWork{
+    margin-top: 10%;
   }
