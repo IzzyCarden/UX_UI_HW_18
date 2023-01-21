@@ -86,8 +86,8 @@ body{
     width: 500px;
     height: 500px;
     position: absolute;
-    margin-top: -400px;
-    margin-left: 20px;
+    margin-top: -525px;
+    margin-left: 4%;
   }
   .skillset{
     width: 200px;
@@ -98,6 +98,7 @@ body{
     width: 200px;
     text-align: center;
     grid-area: skillset2;
+    vertical-align: middle;
   }
   .skillset3{
     width:200px;
@@ -113,18 +114,22 @@ body{
   .skillsgrid{
     display: grid;
     justify-items: center;
-    grid-template-rows: 40% 20% 40%;
-    padding-left: 10%;
-    padding-right: 10%;
+    height: 500px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    padding-top: 10%;
     grid-template-areas: 
     "skillset skillset"
     "skillset2 skillset3"
     "skillset4 skillset4";
   }
+  .skillsSection{
+    padding:5%;
+  }
   
   
 
-
+ 
   .flexContainer {
     display: flex;
     flex-flow: column wrap;
