@@ -81,7 +81,8 @@ body{
   }
  
  
-  
+  /*My Skills section constructed using CSS grid*/
+  /*I chose to code my skills section using grid because my design worked with columns and rows.*/
   .X{
     width: 500px;
     height: 500px;
@@ -129,7 +130,8 @@ body{
   
   
 
- 
+ /*My Work section coded using CSS flex*/
+ /*I coded this section using flex because my design used a column layout.*/
   .flexContainer {
     display: flex;
     flex-flow: column wrap;
@@ -164,4 +166,38 @@ body{
   }
   .myWork{
     margin-top: 10%;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .flexContainer{
+      flex-flow: column wrap;
+      width: fit-content;
+    }
+    .dotr{
+      width: fit-content;
+    }
+    .netflix{
+      width: fit-content;
+    }
+    .skillsgrid{
+      display: grid;
+      justify-items: center;
+      height: 300px;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 33% 33% 33%;
+      padding-top: 10%;
+      grid-template-areas: 
+      "skillset skillset"
+      "skillset2 skillset3"
+      "skillset4 skillset4";
+    }
+    .X{
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      margin-top: -525px;
+      margin-left: 4%;
+    }
   }
